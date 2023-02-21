@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="create.css" />
+    </head>
+    <body>
+        <main>
+            <div id="title">Create A Plant🌿</div>
+
+            <form action="">
+                <input
+                    required
+                    type="text"
+                    placeholder="Plants Name"
+                    name="name"
+                    id="name"
+                />
+                <input
+                    type="text"
+                    placeholder="Image Url"
+                    name="img_url"
+                    id="img_url"
+                />
+                <label for="is_herb"
+                    >Is This Plant and Herb?
+                    <input type="checkbox" name="is_herb" id="is_herb" />
+                </label>
+                <label for="is_perennial"
+                    >Is This Plant a Perennial?
+                    <input
+                        type="checkbox"
+                        name="is_perennial"
+                        id="is_perennial"
+                    />
+                </label>
+                <button>Create A New Plant</button>
+            </form>
+        </main>
+
+        <script src="create-plant.js"></script>
+    </body>
+</html>

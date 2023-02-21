@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(2, 62, 6, 0.701);
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: 75px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 150px;
+    padding: 100px;
+    border: solid black 1px;
+    background-color: rgba(45, 116, 45, 0.881);
+    text-align: center;
+}
+
+input {
+    margin: 15px;
+}
+
+button {
+    margin-top: 40px;
+    background-color: rgba(8, 238, 108, 0.505);
+}
+
+button:hover {
+    background-color: rgba(4, 212, 63, 0.678);
+}

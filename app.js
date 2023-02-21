@@ -25,8 +25,8 @@
         });
         name.textContent = plant.name;
         img.src = plant.img_url;
-        is_herb.textContent = 'Is This an Herb?' + plant.is_herb;
-        is_perennial.textContent = 'Is This a Perennial?' + plant.is_perennial;
+        is_herb.textContent = 'Is This an Herb? ' + plant.is_herb;
+        is_perennial.textContent = 'Is This a Perennial? ' + plant.is_perennial;
 
         li.append(name, img, is_herb, is_perennial, deleteButton);
         ul.append(li);
